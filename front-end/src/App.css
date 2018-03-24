@@ -2,14 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
 }
@@ -18,11 +12,22 @@
   font-size: 1.5em;
 }
 
-.App-intro {
+/** Password Component **/
+
+.password-strength-lead {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.password-strength-result > .strong {
+  color: lime;
+  font-weight: bold;
+}
+
+.password-strength-result > .ok {
+  color: goldenrod;
+}
+
+.password-strength-result > .weak {
+  color: crimson;
+  font-weight: bold;
 }
