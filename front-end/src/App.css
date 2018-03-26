@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+/** Password Component **/
+
+.password-strength-lead {
+  font-size: large;
+}
+
+.password-strength-result > .strong {
+  color: lime;
+  font-weight: bold;
+}
+
+.password-strength-result > .ok {
+  color: goldenrod;
+}
+
+.password-strength-result > .weak {
+  color: crimson;
+  font-weight: bold;
+}
