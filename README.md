@@ -18,7 +18,7 @@ This library consists of two applications:
 
 ## Installation
 
- * install any dependencies listed above not yet present on your system, then fork [my fork](https://github.com/stratigos/password-service-todd), or just clone it locally.
+ * install any dependencies listed above not yet present on your system, then clone this repo.
  * change directory to this checkout, and run `bundle`
  * change directory to `./front-end`, and run `yarn install`
 
