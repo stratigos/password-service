@@ -9,7 +9,7 @@ This library consists of two applications:
 
 ## Dependencies
 
- * **Ruby >= 2.2.2**. _I used **Ruby 2.5.0** in local development._
+ * **Ruby >= 2.2.2**. _(Recommended: **Ruby 2.5.0**)_
  * **bundler ~> 1.16.1**
  * **Rails 5.1.5**
  * **NodeJS ~> 9.4.0**
